@@ -1,7 +1,7 @@
 import { NFCe } from 'src/modules/nfce/nfce.dto';
 
 /* eslint-disable prettier/prettier */
-export const fakeData: NFCe[] = [
+export const fakedata: NFCe[] = [
   {
     id: 'C07F269CE83F769A4EA83E57DD801AE2CD6CDA81',
     items: [
@@ -26,8 +26,8 @@ export const fakeData: NFCe[] = [
           imagem: 'https://cdn-cosmos.bluesoft.com.br/products/7896067200162',
           valor: 5.49,
         },
-        valor: 5.49,
-        quantidade: 1,
+        valor: 9.98,
+        quantidade: 2,
       },
     ],
     total: 0,
