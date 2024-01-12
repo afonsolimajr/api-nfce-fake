@@ -1,7 +1,7 @@
 import { NFCe } from 'src/modules/nfce/nfce.dto';
 
 /* eslint-disable prettier/prettier */
-export const fakedata: NFCe[] = [
+export const fakeData: NFCe[] = [
   {
     id: 'C07F269CE83F769A4EA83E57DD801AE2CD6CDA81',
     items: [
