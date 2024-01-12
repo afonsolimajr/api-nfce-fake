@@ -5,9 +5,14 @@ import { NFCeService } from './nfce.service';
 export class NFCeController {
   constructor(private readonly nfceService: NFCeService) {}
 
+  @Get()
+  getAllCupom() {
+    return this.nfceService.getAll();
+  }
+
   @Get(':id')
   getCupom(@Param('id') id: string) {
     //processa a consulta do cupom pelo id aqui
     return this.nfceService.getNFCe(id);
   }
-} 
+}
